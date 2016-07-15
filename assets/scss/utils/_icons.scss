@@ -1,0 +1,14 @@
+.b-icon{
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.b-icon--time{
+  @include sprite($time);
+}
+.b-icon--check{
+  @include sprite($check);
+}
+.b-icon--hand{
+  @include sprite($hand);
+}
