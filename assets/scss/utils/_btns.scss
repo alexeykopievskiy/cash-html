@@ -1,28 +1,26 @@
 .b-btn{
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
 
-}
+  border: none;
 
-.b-btn--yellow{
-  background: $yellow;
-}
 
-.b-btn--large{
-  font-size: 20px;
-  padding: 16px;
-  border-radius: 50px;
-  width: 340px;
-}
+  &--background-pink{
+    background-color: #df4852;
+  }
 
-.b-btn--blue{
-  background: $blue;
-}
+  &--md{
+    width: 80px;
+    height: 80px;
+  }
 
-.b-btn--medium{
-  font-size: 17px;
-  padding: 16px;
-  border-radius: 50px;
-  width: 225px;
+  &--circle{
+    border-radius: 40px;
+  }
+
+
+
+
+  i{
+    float: none;
+    margin: 0 auto;
+  }
 }

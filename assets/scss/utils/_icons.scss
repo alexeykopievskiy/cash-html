@@ -1,14 +1,91 @@
 .b-icon{
   display: block;
   float: left;
-  margin-right: 20px;
 }
-.b-icon--time{
-  @include sprite($time);
+.b-icon--menu{
+  @include sprite($icon-menu);
 }
-.b-icon--check{
-  @include sprite($check);
+
+.b-icon--search{
+  @include sprite($icon-search);
 }
-.b-icon--hand{
-  @include sprite($hand);
+
+.b-icon--play-market{
+  @include sprite($icon-play-market);
+}
+
+.b-icon--app-store{
+  @include sprite($icon-app-store);
+}
+
+.b-icon--facebook{
+  @include sprite($icon-facebook);
+}
+
+.b-icon--instagram{
+  @include sprite($icon-instagram);
+}
+
+.b-icon--twitter{
+  @include sprite($icon-twitter);
+}
+
+.b-icon--youtube{
+  @include sprite($icon-youtube);
+}
+
+.b-icon--arrow{
+  @include sprite($glyph-arr);
+}
+
+.b-icon--search-small{
+  @include sprite($glyph-search-small);
+}
+
+.b-glyph--phone{
+  @include sprite($glyph-item-phone);
+}
+
+.b-glyph--computer{
+  @include sprite($glyph-item-computer);
+}
+
+.b-glyph--television{
+  @include sprite($glyph-item-television);
+}
+
+.b-glyph--telephone{
+  @include sprite($glyph-item-telephone);
+}
+
+.b-glyph--emoney{
+  @include sprite($glyph-item-emoney);
+}
+
+.b-glyph--home{
+  @include sprite($glyph-item-home);
+}
+
+.b-glyph--game{
+  @include sprite($glyph-item-game);
+}
+
+.b-glyph--pack{
+  @include sprite($glyph-item-pack);
+}
+
+.b-glyph--goverment{
+  @include sprite($glyph-item-goverment);
+}
+
+.b-glyph--logout{
+  @include sprite($glyph-logout);
+}
+
+.b-glyph--login{
+  @include sprite($glyph-login);
+}
+
+.b-glyph--edit{
+  @include sprite($glyph-pen);
 }

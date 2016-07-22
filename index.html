@@ -3,45 +3,38 @@
   <head>
     <title>Index Page | Jade Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body class="b-page">
-    <header class="b-header">
-      <div class="b-header__top-line b-container">
-        <div class="b-header__logo b-pull--left"><a href=""><img class="b-header__img" src="assets/img/logo.png" alt=""></a></div>
-        <nav class="b-header__nav b-pull--left">
-          <ul class="b-header__ul">
-            <li class="b-nav__item"><a href="">Сбережения</a></li>
-            <li class="b-nav__item"><a href="">Займы</a></li>
-            <li class="b-nav__item"><a href="">Компания</a></li>
-            <li class="b-nav__item"><a href="">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="b-header__login b-pull--right"><i class="b-icon b-icon--login"></i>Войти</div>
-      </div>
-      <div class="b-header__center-block">
-        <h1 class="b-align--center b-text--white">Приумножаем сбережения<br>по ставке<span class="b-background--blue">20.9%</span></h1>
-        <div class="b-header__center-pluses">
-          <div class="b-block">
-            <p class="b-pull--left"><i class="b-icon b-icon--time"></i>Ежемесячная выплата процентов</p>
-            <p class="b-pull--right"><i class="b-icon b-icon--check"></i>Обязательное страхование всех кладов</p>
+    <section class="b-page__container b-index-container">
+      <div class="b-page__browser-component"></div>
+      <header class="b-page__header"><a class="b-header__menu-btn" href="#"><i class="b-icon b-icon--menu"></i></a>
+        <div class="b-header__logo"><a href="#"><img src="assets/img/logo.png" alt=""></a></div>
+        <div class="b-menu"></div>
+      </header>
+      <section class="b-page__content">
+        <div class="b-content__start-menu">
+          <h1>Плати в один клик</h1>
+          <p class="b-text--sm">Оплата мобильного, переводы с карты на<br>карту, оплата штрафов ГИБДД<br>и многое другое ...</p>
+          <button class="b-btn b-btn--background-pink b-btn--md b-btn--circle"><i class="b-icon b-icon--search"></i></button>
+          <div class="b-content__app-download">
+            <p class="b-text--xs">Установить приложение Leader Digital</p>
+            <ul class="b-app-download__app-list">
+              <li class="b-ul__item"><a href="#"><i class="b-icon b-icon--play-market"></i></a></li>
+              <li class="b-ul__item"><a href="#"><i class="b-icon b-icon--app-store"></i></a></li>
+            </ul>
           </div>
-          <div class="b-block"><a class="b-btn b-btn--yellow b-block--center b-btn--large">Открыть депозитный счет</a><a class="b-lnk b-lnk--underline-solid" href="#">Тарифы по вкладам<i class="b-icon b-icon--hand"></i></a></div>
         </div>
-      </div>
-    </header>
-    <section class="b-section">
-      <div class="b-section--jumbotron b-section__about b-container--main">
-        <div class="b-col-9 b-section--border">
-          <h2>Займы</h2>
-          <p class="b-text--gray">Оставьте заявку на получение займа, мы рассмотрим ее в течении 15 минут в 10 крупнейших банках региона и после получения одоброения пригласим Вас в офис для оформления и получения займа</p><a class="b-btn b-btn--blue b-btn--medium">Рассчитать займ</a>
-        </div>
-        <div class="b-col-3 b-pull--right b-section__tariffs">
-          <h3>Тариф "Домашний"</h3><img src="assets/img/img1.png" alt="">
-          <p class="b-text--gray">Сумма займа<span class="b-text--yellow">10 000 - 30 000 руб.</span></p>
-          <p class="b-text--gray">Срок займа<span class="b-text--yellow">4 - 52 нед.</span></p>
-        </div>
-      </div>
+      </section>
+      <footer class="b-page__footer">
+        <ul class="b-footer__social">
+          <li class="b-footer__item"><a href="#"><i class="b-icon b-icon--facebook"></i></a></li>
+          <li class="b-footer__item"><a href="#"><i class="b-icon b-icon--instagram"></i></a></li>
+          <li class="b-footer__item"><a href="#"><i class="b-icon b-icon--twitter"></i></a></li>
+          <li class="b-footer__item"><a href="#"><i class="b-icon b-icon--youtube"></i></a></li>
+        </ul>
+      </footer>
     </section>
   </body>
 </html>

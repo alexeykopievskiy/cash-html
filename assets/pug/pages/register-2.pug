@@ -1,0 +1,26 @@
+extends ../layouts/master
+
+block title
+    +pageTitle("Index Page")
+
+block content
+
+  section.b-page__container.b-index-container
+    div.b-page__browser-component
+    header.b-page__header
+      a(href="#").b-header__menu-btn
+        i.b-icon.b-icon--menu
+      div.b-header__logo
+        a(href="#")
+          img(src="assets/img/logo.png", alt="")
+      div.b-menu
+    section.b-page__register
+      div.b-register__block.b-register--step-2
+        p.b-register__telephone 7 941 6283333
+        span.b-register__sms-info
+          | Пароль был отправлен на номер
+          br
+          | вашего телефона
+        input(type="text", placeholder="Введите sms-код")
+        button.b-btn.b-btn--standart.b-btn--fullwidth Войти
+        span.b-register__bottom-info Отправить sms-код заново

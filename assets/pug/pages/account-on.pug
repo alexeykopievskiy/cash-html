@@ -1,0 +1,130 @@
+extends ../layouts/master
+
+block title
+    +pageTitle("On cabinet")
+
+block content
+
+  section.b-page__container.b-index-container
+    div.b-page__browser-component
+    header.b-page__header
+      a(href="#").b-header__menu-btn
+        i.b-icon.b-icon--menu
+      div.b-header__logo
+        a(href="#")
+          img(src="assets/img/logo.png", alt="")
+      div.b-menu
+    section.b-page__content
+      div.b-content__start-menu
+        h1 Плати в один клик
+        p.b-text--sm
+          | Оплата мобильного, переводы с карты на
+          br
+          | карту, оплата штрафов ГИБДД
+          br
+          | и многое другое ...
+        button.b-btn.b-btn--background-pink.b-btn--md.b-btn--circle
+          i.b-icon.b-icon--search
+        div.b-content__app-download
+          p.b-text--xs Установить приложение Leader Digital
+          ul.b-app-download__app-list
+            li.b-ul__item
+              a(href="#")
+                i.b-icon.b-icon--play-market
+            li.b-ul__item
+              a(href="#")
+                i.b-icon.b-icon--app-store
+    footer.b-page__footer
+      ul.b-footer__social
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--facebook
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--instagram
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--twitter
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--youtube
+
+
+
+
+
+    div.b-page__menu
+      div.b-page__profile-block
+        div.b-profile__line
+          div.b-profile__avatar
+            img(src="assets/img/img-photo.png", alt="")
+          button.b-profile__enter
+            i.b-icon.b-glyph--logout
+        div.b-profile__line
+          div.b-profile__account
+            p.b-profile__name Василий Пупкин
+            span.b-profile__id Account ID: 97146283333
+          button.b-profile__edit
+            i.b-icon.b-glyph--edit
+      div.b-page__profile-menu
+        ul.b-profile-menu
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__money
+              | Пополнить кошелек
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__money
+              | Балансы
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__template
+              | Шаблоны
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__template
+              | История
+          li.b-profile-menu__item--divider
+            span.b--divider
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__template
+              | Офисы и терминалы
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__template
+              | Переводы и платежи
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__hand-money
+              | Запросить деньги
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__shoot
+              | Собрать сумму на цель
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__info
+              | Статус перевода
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__help
+              | Поддержка
+          li.b-profile-menu__item--divider
+            span.b--divider
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__document
+              | Договор оферты
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__businessman
+              | Бизнесу
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__info
+              | О компании
+          li.b-profile-menu__item
+            a(href="#")
+              i.icon-glyph__email
+              | Контакты

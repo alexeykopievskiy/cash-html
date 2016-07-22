@@ -1,0 +1,84 @@
+.b-page__register{
+  //height: 501px;
+}
+
+.b-register__block{
+  width: 330px;
+
+  &.b-register--step-1{
+    margin: 153px auto 0;
+  }
+
+  &.b-sign-in{
+    margin: 233px auto 0;
+  }
+
+  &.b-register--step-2{
+    margin: 167px auto 0;
+  }
+
+  input{
+    background: inherit;
+    border: none;
+    color: #df4852;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 6px;
+
+    &:focus{
+      border-bottom: 2px solid #df4852;
+      padding-bottom: 5px;
+    }
+
+    &+ input{
+      margin-top: 30px;
+    }
+
+    @include placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  button{
+    margin-top: 24px;
+    width: 100%;
+    border: none;
+    height: 44px;
+    border-radius: 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.24);
+    background-color: #df4852;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
+.b-register__telephone{
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.b-register__sms-info{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  text-align: center;
+  display: inherit;
+  margin-top: 5px;
+  margin-bottom: 51px;
+  line-height: 19px;
+}
+
+.b-register__bottom-info{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  display: inherit;
+  text-align: center;
+  position: fixed;
+  width: 330px;
+  bottom: 16px;
+}

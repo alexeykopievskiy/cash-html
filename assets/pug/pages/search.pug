@@ -1,0 +1,58 @@
+extends ../layouts/master
+
+block title
+    +pageTitle("Search Page")
+
+block content
+
+  section.b-page__container
+    div.b-page__browser-component
+    div.b-page__search
+      div.b-search__bar
+        a.b-search__back
+          i.b-icon.b-icon--arrow
+        input(type="text", placeholder="Поиск")
+        button.b-search__btn
+          i.b-icon.b-icon--search-small
+      div.b-search__content
+        ul.b-search__list
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--phone
+              | Сотовый телефон
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--computer
+              | Интернет
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--television
+              | Телевидение
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--telephone
+              | Телефония
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--emoney
+              | Электронные кошельки
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--home
+              | Коммунал. службы
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--game
+              | Развлечения
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--pack
+              | Сетевой маркетинг
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--goverment
+              | Госуслуги
+          li.b-search__item
+            a(href="#")
+              i.b-icon.b-glyph--home
+              | Погашение кредитов

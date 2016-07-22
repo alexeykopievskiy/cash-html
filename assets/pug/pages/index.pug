@@ -4,54 +4,47 @@ block title
     +pageTitle("Index Page")
 
 block content
-    header.b-header
-      div.b-header__top-line.b-container
-        div.b-header__logo.b-pull--left
-          a(href="")
-            img(src="assets/img/logo.png", alt="").b-header__img
-        nav.b-header__nav.b-pull--left
-          ul.b-header__ul
-            li.b-nav__item
-              a(href="") Сбережения
-            li.b-nav__item
-              a(href="") Займы
-            li.b-nav__item
-              a(href="") Компания
-            li.b-nav__item
-              a(href="") Контакты
-        div.b-header__login.b-pull--right
-          i.b-icon.b-icon--login
-          | Войти
-      div.b-header__center-block
-        h1.b-align--center.b-text--white Приумножаем сбережения
-          br
-          | по ставке
-          span.b-background--blue 20.9%
-        div.b-header__center-pluses
-          div.b-block
-            p.b-pull--left
-              i.b-icon.b-icon--time
-              | Ежемесячная выплата процентов
-            p.b-pull--right
-              i.b-icon.b-icon--check
-              | Обязательное страхование всех кладов
-          div.b-block
-            a.b-btn.b-btn--yellow.b-block--center.b-btn--large
-              | Открыть депозитный счет
-            a.b-lnk.b-lnk--underline-solid(href="#")
-              | Тарифы по вкладам
-              i.b-icon.b-icon--hand
 
-    section.b-section
-      div.b-section--jumbotron.b-section__about.b-container--main
-        div.b-col-9.b-section--border
-          h2 Займы
-          p.b-text--gray Оставьте заявку на получение займа, мы рассмотрим ее в течении 15 минут в 10 крупнейших банках региона и после получения одоброения пригласим Вас в офис для оформления и получения займа
-          a.b-btn.b-btn--blue.b-btn--medium Рассчитать займ
-        div.b-col-3.b-pull--right.b-section__tariffs
-          h3 Тариф "Домашний"
-          img(src="assets/img/img1.png", alt="")
-          p.b-text--gray Сумма займа
-            span.b-text--yellow 10 000 - 30 000 руб.
-          p.b-text--gray Срок займа
-            span.b-text--yellow 4 - 52 нед.
+  section.b-page__container.b-index-container
+    div.b-page__browser-component
+    header.b-page__header
+      a(href="#").b-header__menu-btn
+        i.b-icon.b-icon--menu
+      div.b-header__logo
+        a(href="#")
+          img(src="assets/img/logo.png", alt="")
+      div.b-menu
+    section.b-page__content
+      div.b-content__start-menu
+        h1 Плати в один клик
+        p.b-text--sm
+          | Оплата мобильного, переводы с карты на
+          br
+          | карту, оплата штрафов ГИБДД
+          br
+          | и многое другое ...
+        button.b-btn.b-btn--background-pink.b-btn--md.b-btn--circle
+          i.b-icon.b-icon--search
+        div.b-content__app-download
+          p.b-text--xs Установить приложение Leader Digital
+          ul.b-app-download__app-list
+            li.b-ul__item
+              a(href="#")
+                i.b-icon.b-icon--play-market
+            li.b-ul__item
+              a(href="#")
+                i.b-icon.b-icon--app-store
+    footer.b-page__footer
+      ul.b-footer__social
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--facebook
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--instagram
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--twitter
+        li.b-footer__item
+          a(href="#")
+            i.b-icon.b-icon--youtube

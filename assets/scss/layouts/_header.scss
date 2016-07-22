@@ -1,0 +1,14 @@
+.b-page__header{
+  padding: 7px 19px;
+
+  @include clearfix;
+
+  i{
+    margin-top: 15px;
+  }
+}
+
+.b-header__logo{
+  float: left;
+  margin-left: 34px;
+}
